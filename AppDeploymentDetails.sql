@@ -29,7 +29,7 @@ select distinct PackageID, v_package.Name,
  Else ' '
  END AS 'Member Type',
  cm.Name
-from v_Package 
+from v_Package [Member name]
 join fn_ListApplicationCIs(16777218) as CI on CI.modelname = v_Package.SecurityKey
 join v_AppDeploymentSummary as ads on ads.CI_ID = CI.CI_ID
 Left Join CollectionMembers as CM on CM.SiteID=ads.TargetCollectionID 
