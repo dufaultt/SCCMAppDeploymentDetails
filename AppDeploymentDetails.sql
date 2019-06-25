@@ -6,7 +6,7 @@ This query will returnPackageID, Application Name, Software Center Name, Owner o
 Administrator Comments, Date Created, Date Last Modified, Username of Application Creator, The Collection ID being deployed to, 
 Collection Type, Collection Name, SCCM Object Path for collection, Member Type (user vs Device), Name of Member.
 
-Some application specific data is held in XML files under the table denote by function fn_ListApplicationCIs.
+Some application specific data is held in XML files under the table denoted by function fn_ListApplicationCIs.
 */
 
 WITH XMLNAMESPACES ( DEFAULT 'http://schemas.microsoft.com/SystemCenterConfigurationManager/2009/AppMgmtDigest')
